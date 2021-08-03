@@ -1,0 +1,25 @@
+h1 {
+    color:blue;
+}
+img {
+    width: 400px;
+}
+#thirdDiv {
+    height: 600px;
+    width: 500px;
+    background-color: burlywood;
+    padding: 50px;
+    border: 1px cadetblue;
+}
+#spanId {
+    font-size: 18px;
+    margin: 50px;
+}
+div {
+    width: 200px;       
+        height: 200px;
+        margin: 0 auto;
+}
+body {
+    background-color: cadetblue;
+}
