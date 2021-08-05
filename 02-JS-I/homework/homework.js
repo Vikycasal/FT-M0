@@ -165,13 +165,21 @@ function esPositivo(numero) {
   //Si el número es positivo, devolver ---> "Es positivo"
   //Si el número es negativo, devolver ---> "Es negativo"
   //Si el número es 0, devuelve false
-
+if (numero === 0) {
+  return false
+} else if (numero > 0) {
+  return "Es positivo"
+} else {
+  return "Es negativo"
 }
+
 
 function agregarSimboloExclamacion(str) {
   // Agrega un símbolo de exclamación al final de la string "str" y devuelve una nueva string
   // Ejemplo: "hello world" pasaría a ser "hello world!"
   // Tu código:
+  return srt + 1
+}
 
 function combinarNombres(nombre, apellido) {
   // Devuelve "nombre" y "apellido" combinados en una string y separados por un espacio.
@@ -226,9 +234,10 @@ function esVocal(letra){
   }
   if(letra === "a" || letra === "e" || letra === "i" || letra === "o" || letra === "u"){
     return "Es vocal"
-  }
+  } else { 
   return "Dato incorrecto"
 }
+
 
 
 
@@ -268,5 +277,5 @@ module.exports = {
   retornarPerimetro,
   areaDelTriangulo,
   deEuroAdolar,
-  esVocal,
-}
+  esVocal, 
+}  
